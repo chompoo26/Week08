@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  padding: 40px;
+}
+
+.product-card {
+  width: 250px;
+  padding: 20px;
+  background-color: white;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  border-radius: 8px;
+  margin: auto;
+}
+
+.product-card img {
+  width: 100%;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.product-info {
+  text-align: center;
+  margin-top: 15px;
+}
+
+.product-info h3 {
+  font-size: 20px;
+  color: black;
+  margin: 10px 0;
+}
+
+.product-info .price {
+  font-size: 18px;
+  color: red;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.add-to-cart-btn {
+  background-color: green;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.add-to-cart-btn:hover {
+  background-color: green;
+}
